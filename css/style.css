@@ -120,8 +120,8 @@ hr{
     margin-bottom: 50px;
 }
 .press_img{
-    width: 250px;
-    margin: 20px;
+    width: 420px;
+    margin: 20px auto;
     padding: 2px;
     border:1px solid black;
     border-radius:5px;
@@ -142,5 +142,8 @@ hr{
     .cover{
         padding: 0;
         margin:0;
+    }
+    .press_img{
+        width: 250px;
     }
 }
