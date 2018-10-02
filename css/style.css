@@ -1,0 +1,102 @@
+html ,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #e9ecef;
+}
+h1{
+    margin-bottom: 1.5rem;
+    font-size: 3.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+aside{
+    padding-top: 20px;
+}
+footer{
+    background-color: #343a40;
+    color:#edeeef;
+    height: 100px;
+    }
+iframe{
+    max-width: 100%;
+}
+.logo{
+    max-width: 100%;
+    margin: 0;
+}
+.navbar-nav {
+    padding-right: 30px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+.nav-item {
+    padding-right: 20px;
+    margin-right: 30px;
+}
+.cover_img{
+    width:85%;
+    margin-top: 1.5rem
+    
+}
+.cover{
+    background-color: white;
+    padding-top: 2rem;
+}
+
+.social a {
+    font-size: 3rem;
+    padding:3rem; 
+}
+.fa-facebook{
+    color:#3b5998;
+}
+.fa-instagram{
+    color:#517fa4;
+}
+.fa-youtube{
+    color:#bb0000;
+}
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-youtube:hover{
+    color:#d5d5d5;
+}
+.card{
+    margin-top: 1em;
+}
+.card-img-top{
+    height: 250px;
+    transition: all .2s ease-in-out; 
+}
+
+.card-img-top:hover{
+    transform: scale(1.05,1.05);
+}
+.p_mesagge{
+    font-size: 25px;
+    padding-bottom: 1em;
+    padding-top: .5em;
+}
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 1.8em;
+    }
+    iframe{
+        height: 200px;
+    }
+    .p_mesagge{
+        font-size: 1.2em;
+        padding-top: 0;
+    }
+    .cover{
+        padding: 0;
+        margin:0;
+    }
+}
